@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - cozy-realtime-adapter > socket.io > debug:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:engine.io-client:20160426':
+    - cozy-realtime-adapter > socket.io > socket.io-client > engine.io-client:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:negotiator:20160616':
+    - americano > express > accepts > negotiator:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:qs:20140806-1':
+    - americano > body-parser > qs:
+        patched: '2017-10-13T10:35:13.063Z'
+    - americano-cozy > jugglingdb-cozy-adapter > request-json > request > qs:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:request:20160119':
+    - americano-cozy > jugglingdb-cozy-adapter > request-json > request:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2017-10-13T10:35:13.063Z'
+  'npm:ws:20160920':
+    - cozy-realtime-adapter > socket.io > engine.io > ws:
+        patched: '2017-10-13T10:35:13.063Z'
+    - cozy-realtime-adapter > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2017-10-13T10:35:13.063Z'
