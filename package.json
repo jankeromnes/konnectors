@@ -23,7 +23,7 @@
     "node-polyglot": "0.4.1",
     "printit": "0.1.5",
     "querystring": "0.2.0",
-    "request": "2.34.0",
+    "request": "2.82.0",
     "request-json": "0.4.10",
     "ware": "0.3.0",
     "xml2js": "0.4.5"
